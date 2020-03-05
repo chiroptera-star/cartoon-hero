@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	font-family: Helvetica, ariel, sans-serif;
+}
+
+header{
+	background-color: #6699FF;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+h1, h2{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+}
+
+header h1{
+	color: white;
+}
+
+header img{
+	border-radius: 120px;
+	width: 270px;
+}
