@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: Helvetica, ariel, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
@@ -17,9 +19,61 @@ h1, h2{
 
 header h1{
 	color: white;
+	font-size: 70px;
 }
 
 header img{
 	border-radius: 120px;
 	width: 270px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 40px;
+	color: black;
+	margin: 40px 0 10px;
+}
+
+a{
+color: #e70c19;
+}
+
+a:hover{
+	color: #6699FF;
+}
+
+footer{
+	background-color: #6699FF;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+footer p{
+margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	background-color: white;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+	text-align: right;
+	font-size: 15px;
 }
